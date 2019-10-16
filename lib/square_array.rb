@@ -19,4 +19,4 @@ def square_array(array)
   return new_array
 end
 
-square_array ()
+square_array (1, 4, 9)
