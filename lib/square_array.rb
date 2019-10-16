@@ -7,8 +7,9 @@ def square_array(array)
   while counter < array.length 
     element = array[counter]
     squared_element = element**element
+    new_array = []
     
-    new_array.new << squared_element
+    new_array<< squared_element
   end
   
   return new_array
