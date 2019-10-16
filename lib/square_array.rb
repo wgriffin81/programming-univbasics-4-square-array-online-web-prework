@@ -3,13 +3,13 @@
 
 
 def square_array(array)
+  new_array = []
   counter = 0
+  
+  
   while counter < array.length do
-    new_array = []
-    
     element = array[counter]
     squared_element = (element**element)
-    
     
     new_array << squared_element
     
