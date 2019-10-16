@@ -10,6 +10,8 @@ def square_array(array)
     new_array = []
     
     new_array<< squared_element
+    
+    counter +=1
   end
   
   return new_array
