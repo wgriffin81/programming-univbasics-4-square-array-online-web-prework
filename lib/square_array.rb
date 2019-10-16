@@ -9,7 +9,7 @@ def square_array(array)
     squared_element = (element**element)
     new_array = []
     
-    new_array<< squared_element
+    new_array << squared_element
     
     counter +=1
   end
